@@ -1,22 +1,22 @@
-# AI Calorie Predictor 🥗🤖
+# AI Calorie Predictor 
 
 This project is a machine learning-based Calorie Predictor that uses a Random Forest Regression model to estimate calories burned during physical activity. Built to assist in fitness tracking and health analytics.
 
-## 🚀 Features
+##  Features
 
 - Predicts calories burned using user-specific data
 - Trained on real-world dataset
 - Uses Random Forest Regressor for accurate predictions
 - Simple and easy to use
 
-## 📊 Tech Stack
+##  Tech Stack
 
 - Python
 - Pandas
 - Scikit-learn
 - Matplotlib / Seaborn (for visualization, optional)
 
-## 📁 Dataset
+##  Dataset
 
 Used a dataset containing features such as:
 - Age
@@ -29,29 +29,23 @@ Used a dataset containing features such as:
 
 (Target: Calories burned)
 
-## 🧠 Model
+##  Model
 
 - Random Forest Regressor
 - Train-test split (e.g., 80/20)
 - Evaluation metrics: R² Score, MAE, MSE
 
-## 🔧 How to Run
+##  How to Run
 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/calorie-predictor.git
    cd calorie-predictor
-Install dependencies:
+2.Install dependencies:
 
-bash
-Copy
-Edit
+ ```bash
 pip install -r requirements.txt
 Run the notebook or script:
-
-bash
-Copy
-Edit
 python calorie_predictor.py
 
 📈 Results
